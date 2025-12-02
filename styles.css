@@ -91,6 +91,26 @@ nav {
     color: white;
     padding: 5rem 0;
     text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(102, 126, 234, 0.7);
+    z-index: 1;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
 }
 
 .hero h1 {
@@ -101,6 +121,27 @@ nav {
 .hero p {
     font-size: 1.3rem;
     margin-bottom: 2rem;
+}
+
+/* Hero Background Images */
+.hero-home {
+    background-image: url('homeandcontact.webp');
+}
+
+.hero-about {
+    background-image: url('about.png');
+}
+
+.hero-services {
+    background-image: url('services.png');
+}
+
+.hero-portfolio {
+    background-image: url('portfolio.png');
+}
+
+.hero-contact {
+    background-image: url('homeandcontact.webp');
 }
 
 .cta-button {
