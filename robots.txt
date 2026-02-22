@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://birminghamseo.com/sitemap.xml
+Sitemap: https://birminghamseo.net/sitemap.xml
